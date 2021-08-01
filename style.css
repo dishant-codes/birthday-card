@@ -12,6 +12,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow-x: hidden;
+  margin: 0 auto;
 }
 
 .card {
@@ -226,4 +227,10 @@ body {
 .home-text {
   top: 6rem;
   position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    left: 13% !important;
+  }
 }
